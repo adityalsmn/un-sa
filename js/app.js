@@ -402,7 +402,7 @@ const session = (() => {
             })
             .catch((err) => {
                 alert(`Terdapat kesalahan: ${err}`);
-                window.location.reload();
+               // window.location.reload();
                 return;
             });
     };
